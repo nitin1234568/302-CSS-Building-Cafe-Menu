@@ -1,0 +1,90 @@
+body
+{
+content: '';
+background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 20px;
+z-index: -1;
+}
+.menu
+{   display: flex;
+    flex-direction: column;
+    margin: 0 220px;
+    background-color: rgb(217, 175, 124);
+    text-align: center;
+    height: 100%;
+    width: 60vw;
+    
+}
+.menu #heading
+{
+    font-size:50px;
+    text-decoration: underline;
+    text-underline-offset:40px;
+    text-decoration-color: brown;
+    text-decoration-thickness:5px;
+}
+.menu #heading::first-letter
+{
+    font-size: 80px;
+    color:brown;
+}
+.menu-start h2::first-letter
+{
+    font-size: 50px;
+}
+.menu p
+{
+    font-size:20px;
+    margin-bottom: 40px;
+}
+.menu-start img
+{
+    
+    width: 100px;
+    margin-top: -20px;
+    
+}
+.menu-start
+{
+    font-size:25px;
+    margin-top: -50px;
+    margin-right: 15px;
+    
+    
+}
+.menu-start h2
+{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: black;
+    text-decoration-thickness: 5px;
+}
+.item
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item p
+{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+
+.bottom-line 
+{
+  background-color: red;
+  height: 5px;
+ 
+}
+footer a:hover 
+{
+    color: rgb(132, 3, 3);
+}
+
+footer a:visited
+{
+    color:black;
+}
